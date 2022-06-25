@@ -1,35 +1,60 @@
 <?php
 /*
-	Thx, Peekobot! 
-	https://github.com/Peekobot/peekobot
-	https://twitter.com/magicroundabout/
-	
-	This is an addon for the Peekobot. It can be used as a crawler to search a folder and make it available for the Peekobot as a clickable menu.
+Thx, Peekobot! 
+https://github.com/Peekobot/peekobot
+https://twitter.com/magicroundabout/
 
-	Background: I have recipes on my homepage in the folder /recipes/. The recipes are available as text files. 
+This is an addon for the Peekobot. It can be used as a crawler to search a folder and make it available for the Peekobot as a clickable menu.
 
-	folder: /recipes/
-	category_recipename.txt
+Background: I have recipes on my homepage in the folder /recipes/. The recipes are available as text files. 
 
-	Example 1:	baking_moms_delicious_cake.txt
-	Example 2:	beverages_gingerdrink.txt
-	Example 3:	pasta_pasta_casserole.txt
+folder: /recipes/
+category_recipename.txt
 
-	////////// Inside a text file //////////
-	Mom's Delicious Cake
+Example 1:	baking_moms_delicious_cake.txt
+Example 2:	beverages_gingerdrink.txt
+Example 3:	pasta_pasta_casserole.txt
 
-	Ingredients:
-	1 l milk
-	[...]
-	[...]
-	[...]
-	/////////////////////////////////////////////
+////////// Inside a text file //////////
+Mom's Delicious Cake
 
-	Line 1 is the headline. It will be converted by the crawler as <h2>headline</h2>.
+Ingredients:
+1 l milk
+[...]
+[...]
+[...]
+/////////////////////////////////////////////
 
-	Have fun with the crawler!
+Line 1 is the headline. It will be converted by the crawler as <h2>headline</h2>.
 
-	License of this script: Public Domain
+Have fun with the crawler!
+
+License of the script: The Unlicense (unlicense.org)
+
+This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
+
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+For more information, please refer to <http://unlicense.org/>
 */															
 
 //exit; //uncomment it to prevent using this file.
